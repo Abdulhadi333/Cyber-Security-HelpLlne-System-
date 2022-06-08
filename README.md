@@ -28,7 +28,7 @@ Communicate with Cyber Security  experts,Educate people about  cybersecurity dis
 - View Specialists Profile.
 - Search for vulnerabilities, or attacks.
 
-### Teachers
+### Specialist CyberSecurity
 
 - View the users information.
 - Edit information.

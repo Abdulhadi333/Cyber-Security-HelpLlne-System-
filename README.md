@@ -1,35 +1,35 @@
-#Project Name: Cybersecurity Helpline System.
+# Project Name: Cybersecurity Helpline System.
+
+## Idea:
+Today, Increase in occurrence of cybersecurity disasters and the increase  vulnerabilities and less awareness of threats and less time and resource to put into cybersecurity. This makes them an easier target for hackers .We need a CyberSecurity  community that clarifies to the technical user the vulnerabilities,attacks, as well  communication with experts and specialists in CyberSecurity. My project is Cyber Security Helpline System presents the latest vulnerabilities and attacks with a description of it, displaying the profiles of the most famous Cyber Security experts.
 
 
-##Idea:
-Today, Increase in occurrence of cybersecurity disasters today and the increase  vulnerabilities . We need a Cybersecurity  community that clarifies to the technical user the vulnerabilities, as well as his communication with experts in CyberSecurity.My project is Cyber Security Helpline System presents the latest vulnerabilities with a description of it, displaying the profiles of the most famous Cyber Security experts، and insert CV by the user to find job. 
+## Inspiration:
+Communicate with Cyber Security  experts,Educate people about  cybersecurity disasters and risks.
 
 
-###Inspiration:
-Communicate with Cyber Security  experts، help job seekers to get job opportunities in same field. Educate people about  cyber security disasters.
+## List of Services / Features:
+
+- Manage the specialists cybersecurity.
+- Manage the users.
+- Manage subjects(vulnerabilities, and attacks) page.
 
 
-####List of Services / Features:
-Manage specialists cyber security profile.
-Manage manage view new vulnerabilities and attacks  in the world .
-Managing the list of job seekers
+## User Stories
+- Type of users: Admin, Specialist CyberSecurity, and Users.
 
 
-#####User Stories:
+### Users
 
-Type of users: specialist cyber security, job seekers, and Guest.
+- View subjects(vulnerabilities, and attacks) page.
+- create comments.
+- Edit information.
+- Send Inquiries to specialists cybersecurit.
+- View Specialists Profile.
+- Search for vulnerabilities, or attacks.
 
+### Teachers
 
-specialist cyber security:
-Add, edit , and delete Vulnerabilities and attacks.
-View CV.
-
-
-job seekers:
-Add, edit , and delete CV.
-
-Guest:
-View Vulnerabilities and attacks.
-
-
+- View the users information.
+- Add subjects(vulnerabilities, and attacks) page.
 

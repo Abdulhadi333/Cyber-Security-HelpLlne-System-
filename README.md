@@ -12,7 +12,7 @@ Communicate with Cyber Security  experts,Educate people about  cybersecurity dis
 
 - Manage the specialists cybersecurity.
 - Manage the users.
-- Manage subjects(vulnerabilities, and attacks) page.
+- Manage content(vulnerabilities, and attacks) page.
 
 
 ## User Stories
@@ -21,7 +21,7 @@ Communicate with Cyber Security  experts,Educate people about  cybersecurity dis
 
 ### Users
 
-- View subjects(vulnerabilities, and attacks) page.
+- View content(vulnerabilities, and attacks) page.
 - create comments.
 - Edit information.
 - Send Inquiries to specialists cybersecurit.
@@ -31,5 +31,6 @@ Communicate with Cyber Security  experts,Educate people about  cybersecurity dis
 ### Teachers
 
 - View the users information.
-- Add subjects(vulnerabilities, and attacks) page.
+- Edit information.
+- Add content(vulnerabilities, and attacks) page.
 

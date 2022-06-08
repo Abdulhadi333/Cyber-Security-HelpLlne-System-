@@ -1,4 +1,4 @@
-# Project Name: Cybersecurity Helpline System.
+# Project Name: CyberSecurity Helpline System.
 
 ## Idea:
 Today, Increase in occurrence of cybersecurity disasters and the increase  vulnerabilities and less awareness of threats and less time and resource to put into cybersecurity. This makes them an easier target for hackers .We need a CyberSecurity  community that clarifies to the technical user the vulnerabilities,attacks, as well  communication with experts and specialists in CyberSecurity. My project is Cyber Security Helpline System presents the latest vulnerabilities and attacks with a description of it, displaying the profiles of the most famous Cyber Security experts.

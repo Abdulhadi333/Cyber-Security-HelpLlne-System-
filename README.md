@@ -43,7 +43,6 @@ Communicate with Cyber Security  experts,Educate people about  cybersecurity dis
 
 ### Vulnerability scanner ***
 
-- View the users information.
 - Add new Vulnerability.
 
 

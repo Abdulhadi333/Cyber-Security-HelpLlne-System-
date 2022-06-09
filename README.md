@@ -27,6 +27,7 @@ Communicate with Cyber Security  experts,Educate people about  cybersecurity dis
 
 - View content(vulnerabilities, and attacks) page.
 - View Certificates Certified
+- View new Vulnerability.
 - create comments.
 - Edit information.
 - Send Inquiries to specialists cybersecurit.

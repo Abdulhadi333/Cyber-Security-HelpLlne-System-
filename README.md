@@ -38,13 +38,13 @@ Communicate with Cyber Security  experts,Educate people about  cybersecurity dis
 
 - View the users information.
 - Edit information.
-- Add content(vulnerabilities, and attacks) page.
-- Add Certificates Certified.
+- Add, Edit, and Delete content(vulnerabilities, and attacks) page.
+- Add, Edit, and Delete Certificates Certified.
 
 
 ### Vulnerability scanner ***
 
-- Add new Vulnerability.
+- Add, Edit, and Delete new Vulnerability.
 
 
 

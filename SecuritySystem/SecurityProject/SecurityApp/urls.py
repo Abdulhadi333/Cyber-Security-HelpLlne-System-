@@ -23,6 +23,10 @@ urlpatterns = [
     path("list-comments", views.list_comments, name='list comments'),
     path("comment-search/<certification_id>", views.search_comment, name="search comment"),
 
+    # urls for rating Profile:
+    path("rating-profile", views.create_ratting, name="Add rate"),
+    path("list-ratingProfile", views.list_reatingProfile, name='list rating'),
+
 ]
 
 

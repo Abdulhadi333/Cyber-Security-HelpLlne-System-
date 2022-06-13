@@ -4,9 +4,9 @@ from rest_framework.decorators import api_view, authentication_classes, permissi
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.request import Request
 from rest_framework.response import Response
-from .models import Scan_Vul, Certification, Comment, Profile
+from .models import Scan_Vul, Certification, Comment, Profile, reatingProfile
 
-from .serializers import Scan_VulSerializer, CertificationSerializer, ProfileSerializer, CommentSerializer
+from .serializers import Scan_VulSerializer, CertificationSerializer, ProfileSerializer, CommentSerializer, ReatingProfileSerializer
 from rest_framework_simplejwt.authentication import JWTAuthentication
 
 
@@ -235,7 +235,6 @@ def delete_profile(request: Request, profile_id):
     profile.delete()
     return Response({"msg": "DELETE profile Successfully"})
 
-
 # CREATE,AND VIEW  COMMENT
 
 @api_view(['POST'])
@@ -286,4 +285,41 @@ def search_comment(request: Request, certification_id):
         "Comments": CommentSerializer(instance=comment, many=True).data
     }
 
+    return Response(dataResponse)
+
+
+# Rating for Specialist CyberSecurity Profile
+
+@api_view(['POST'])
+@authentication_classes([JWTAuthentication])
+def create_ratting(request: Request):
+    if not request.user.is_authenticated:
+        return Response({"msg": "Sorry, Not Allowed to add Profile Specialist CyberSecurity ..."},status=status.HTTP_401_UNAUTHORIZED)
+
+    rate = ReatingProfileSerializer(data=request.data)
+    if rate.is_valid():
+        rate.save()
+        dataResponse = {
+            "msg": "Thank you for record this Rating...",
+            "Certification ": rate.data
+        }
+        return Response(dataResponse)
+    else:
+        print(rate.errors)
+        dataResponse = {"msg": "Sorry, couldn't add new rate..."}
+        return Response(dataResponse, status=status.HTTP_400_BAD_REQUEST)
+
+
+
+@api_view(['GET'])
+@authentication_classes([JWTAuthentication])
+def list_reatingProfile(request: Request):
+    if not request.user.is_authenticated:
+        return Response({"msg": "Not Allowed please LOGIN..."}, status=status.HTTP_401_UNAUTHORIZED)
+
+    reate = reatingProfile.objects.all()
+    dataResponse = {
+        "msg": "list of Rating Specialists CyberSecurity ",
+        "Vulnerabilities": ReatingProfileSerializer(instance=reate, many=True).data
+    }
     return Response(dataResponse)

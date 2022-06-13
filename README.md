@@ -10,39 +10,38 @@ Communicate with Cyber Security  experts,Educate people about  cybersecurity dis
 
 
 ## List of Services / Features:
-
+- Manage the scanner vulnerabilities 
 - Manage the specialists cybersecurity.
 - Manage the users.
-- Manage content(vulnerabilities, and attacks) .
-- Manage Certificates Certified in cybersecurity.
+- Manage posts (Certificates Certified) .
 - Manage Comments. 
 
 
 ## User Stories
-- Type of users: Admin, Specialist CyberSecurity, and Users.
-- addable (Vulnerability scanner)
+- Type of users: Admin, Vulnerability scanner,Specialist CyberSecurity, and Users.
 
 
 ### Users
 
-- View content(vulnerabilities, and attacks) page.
-- View Certificates Certified
-- View new Vulnerability.
+- View content(vulnerabilities).
+- View Certificates Certified.
 - create comments.
 - Edit information.
 - Send Inquiries to specialists cybersecurit.
 - View Specialists Profile.
 - Search for vulnerabilities, or attacks.
+- Search for Certificates Certified in cybersecurity.
 
 ### Specialist CyberSecurity
 
-- View the users information.
 - Edit information.
-- Add, Edit, and Delete content(vulnerabilities, and attacks) page.
+- Add, Edit, and Delete content(vulnerabilities, and attacks).
 - Add, Edit, and Delete Certificates Certified.
+- - Add, Edit, and Delete Profile.
 
 
-### Vulnerability scanner ***
+
+### Vulnerability scanner 
 
 - Add, Edit, and Delete new Vulnerability.
 

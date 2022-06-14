@@ -323,3 +323,21 @@ def list_reatingProfile(request: Request):
         "Vulnerabilities": ReatingProfileSerializer(instance=reate, many=True).data
     }
     return Response(dataResponse)
+
+
+
+@api_view(['GET'])
+@authentication_classes([JWTAuthentication])
+def search_ByRating(request: Request, rating_id):
+    if not request.user.is_authenticated:
+        return Response({"msg": "Not Allowed please LOGIN..."}, status=status.HTTP_401_UNAUTHORIZED)
+
+    rate = reatingProfile.objects.filter(rate=rating_id)
+
+    dataResponse = {
+        "msg": "the vulnerability :",
+        "scan_Vulnerability": ReatingProfileSerializer(instance=rate, many=True).data
+    }
+
+    return Response(dataResponse)
+

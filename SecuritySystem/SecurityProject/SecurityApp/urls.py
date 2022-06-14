@@ -26,6 +26,7 @@ urlpatterns = [
     # urls for rating Profile:
     path("rating-profile", views.create_ratting, name="Add rate"),
     path("list-ratingProfile", views.list_reatingProfile, name='list rating'),
+    path("searchByRate/<rating_id>", views.search_ByRating, name="search "),
 
 ]
 

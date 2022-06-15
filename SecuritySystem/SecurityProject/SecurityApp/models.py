@@ -77,7 +77,7 @@ class Profile(models.Model):
     experience = models.TextField(max_length=500)
     service = models.TextField(max_length=500)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    email = models.EmailField(max_length=100)
+    l = models.EmailField(max_length=100)
 
 
 """

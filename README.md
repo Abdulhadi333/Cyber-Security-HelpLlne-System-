@@ -34,10 +34,9 @@ Communicate with Cyber Security  experts,Educate people about  cybersecurity dis
 
 ### Specialist CyberSecurity
 
-- Edit information.
-- Add, Edit, and Delete content(vulnerabilities, and attacks).
+
 - Add, Edit, and Delete Certificates Certified.
-- - Add, Edit, and Delete Profile.
+-  Add, Edit, and Delete Profile.
 
 
 
